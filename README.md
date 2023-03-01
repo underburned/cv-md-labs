@@ -17,6 +17,10 @@
 - [OpenCV Image Filtering](https://docs.opencv.org/4.x/d4/d86/group__imgproc__filter.html)
 - [OpenCV Color Space Conversions](https://docs.opencv.org/4.x/d8/d01/group__imgproc__color__conversions.html) - 
 основной метод `cvtColor` и различные поля `enum cv::ColorConversionCodes`.
-- [OpwnCV Color conversions](https://docs.opencv.org/4.x/de/d25/imgproc_color_conversions.html)
+- [OpenCV Color conversions](https://docs.opencv.org/4.x/de/d25/imgproc_color_conversions.html)
+- [Туторы на питоне](https://docs.opencv.org/4.7.0/d6/d00/tutorial_py_root.html)
+- [OpenCV Getting Started with Videos, Python](https://docs.opencv.org/4.7.0/dd/d43/tutorial_py_video_display.html)
+
+
 - [Пример jupyter-notebook'а](examples/l1_gamma.ipynb)
 - [Получение доступа к камере на Android](examples/AndroidCameraX.md)
