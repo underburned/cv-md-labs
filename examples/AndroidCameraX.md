@@ -6,7 +6,7 @@
 
 ## Установка Android Studio
 
-Менеджер IDE от JetBrains: [JetBrains Toolbox App](jetbrains.com/toolbox-app/).
+Менеджер IDE от JetBrains: [JetBrains Toolbox App](https://www.jetbrains.com/toolbox-app/).
 
 ## Гайды
 
