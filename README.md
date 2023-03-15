@@ -27,8 +27,8 @@
    ```math
    I_{out}(x, y) = 
    \begin{cases}
-    0    & \quad \text{если } I_{in}(x, y) > T \\
-    255  & \quad \text{иначе}
+    255    & \quad \text{если } I_{in}(x, y) > T \\
+    0  & \quad \text{иначе}
    \end{cases}
    ```
    - наложение (бленд) изображений
