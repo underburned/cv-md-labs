@@ -19,8 +19,18 @@
        <img width=600 height=400 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/600px-Logistic-curve.svg.png">
      </p>
    - контрастирование
+   ```math
+   I_{out} = \alpha \cdot I_{in} + \beta
+   ```
    - изменение баланса белого
-   - пороговая обработка
+   - пороговая обработка, T - значение порога
+   ```math
+   I_{out}(x, y) = 
+   \begin{cases}
+    0    & \quad \text{если } I_{in}(x, y) > T \\
+    255  & \quad \text{иначе}
+   \end{cases}
+   ```
    - наложение (бленд) изображений
    ```math
    I_{out} = \alpha \cdot I_1 + \beta \cdot I_2
