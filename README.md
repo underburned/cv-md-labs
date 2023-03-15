@@ -4,7 +4,20 @@
 
 1. Выбрать любой алгоритм (или несколько) обработки изображений:
    - переход из одного цветового пространства в другое
-   - гамма-коррекция
+   - гамма-коррекция  
+     ```math
+     I_{out} = (\frac{I_{in}}{255})^\frac{1}{\gamma} \cdot 255
+     ```
+   - кривая коррекции, например, логистическая кривая (S-curve)
+     ```math
+     \displaylines{S = \frac{L}{1 + e^{-k \cdot (x - x_0)}} \\
+     L = 1, k = 1, x_0 = 0 \\
+     S(x) = \frac{1}{1 + e^{-k \cdot x}} \\
+     I_{out} = (\frac{I_{in}}{255} \cdot S(x)) \cdot 255}
+     ```  
+     <p align="center">
+       <img width=600 height=400 src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Logistic-curve.svg/600px-Logistic-curve.svg.png">
+     </p>
    - контрастирование
    - изменение баланса белого
    - пороговая обработка
