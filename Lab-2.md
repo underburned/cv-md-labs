@@ -109,11 +109,30 @@ c /= np.sum(b)
 \end{flalign*}
 ```
 
-Пример обработки:
+Пример обработки изображения:
 
 <p align="center">
     <img width=800 height=533 src="examples/data/IMG_1836_800.png">
-    <p align="center">Исходное</p>
+    <div align="center">Исходное</div>
+<p align="center">
     <img width=800 height=533 src="examples/data/IMG_1836_800_sobel_x.png">
-    <p align="center">Результат обработки G<sub>x</sub></p>
+    <div align="center">Результат обработки G<sub>x</sub></div>
+</p>
+<p align="center">
+    <img width=800 height=533 src="examples/data/IMG_1836_800_sobel_y.png">
+    <div align="center">Результат обработки G<sub>y</sub></div>
+</p>
+
+Пример обработки полутонового изображения:
+
+<p align="center">
+    <img width=800 height=533 src="examples/data/IMG_1836_800_gray.png">
+    <div align="center">Исходное</div>
+<p align="center">
+    <img width=800 height=533 src="examples/data/IMG_1836_800_gray_sobel_x.png">
+    <div align="center">Результат обработки G<sub>x</sub></div>
+</p>
+<p align="center">
+    <img width=800 height=533 src="examples/data/IMG_1836_800_gray_sobel_y.png">
+    <div align="center">Результат обработки G<sub>y</sub></div>
 </p>
