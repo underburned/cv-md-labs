@@ -136,3 +136,37 @@ c /= np.sum(b)
     <img width=800 height=533 src="examples/data/IMG_1836_800_gray_sobel_y.png">
     <div align="center">Результат обработки G<sub>y</sub></div>
 </p>
+
+### Оператор Щарра
+
+```math
+\begin{flalign*}
+    &G_y = \begin{bmatrix}
+                3 & 10 & 3 \\[0.3em]
+                0 & 0 & 0 \\[0.3em]
+                -3 & -10 & -3 \\[0.3em]
+           \end{bmatrix} \\\\
+    &G_x = \begin{bmatrix}
+                -3 & 0 & 3 \\[0.3em]
+                -10 & 0 & 10 \\[0.3em]
+                -3 & 0 & 3 \\[0.3em]
+           \end{bmatrix}
+\end{flalign*}
+```
+
+### Оператор Прюитта
+
+```math
+\begin{flalign*}
+    &G_y = \begin{bmatrix}
+                1 & 1 & 1 \\[0.3em]
+                0 & 0 & 0 \\[0.3em]
+                -1 & -1 & -1 \\[0.3em]
+           \end{bmatrix} \\\\
+    &G_x = \begin{bmatrix}
+                -1 & 0 & 1 \\[0.3em]
+                -1 & 0 & 1 \\[0.3em]
+                -1 & 0 & 1 \\[0.3em]
+           \end{bmatrix}
+\end{flalign*}
+```
