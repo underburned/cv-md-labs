@@ -37,7 +37,7 @@
             10 & 11 & 12 & 13 & 14 \\[0.3em]
             15 & 16 & 17 & 18 & 19 \\[0.3em]
             20 & 21 & 22 & 23 & 24 \\[0.3em]
-         \end{bmatrix} = \\
+         \end{bmatrix} = \\\\
     &\frac{1}{7} 
          \begin{bmatrix}
             12 & 17 & 24 & 31 & 36      \\[0.3em]
@@ -114,4 +114,6 @@ c /= np.sum(b)
 <p align="center">
     <img width=800 height=533 src="examples/data/IMG_1836_800.png">
     <p align="center">Исходное</p>
+    <img width=800 height=533 src="examples/data/IMG_1836_800_sobel_x.png">
+    <p align="center">Результат обработки G<sub>x</sub></p>
 </p>
