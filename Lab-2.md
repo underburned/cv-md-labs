@@ -170,3 +170,35 @@ c /= np.sum(b)
            \end{bmatrix}
 \end{flalign*}
 ```
+
+### Детектор границ Канни
+
+Ссылки:
+- [Хабр](https://habr.com/ru/post/114589/)
+- [OpenCV: Canny Edge Detection](https://docs.opencv.org/4.x/da/d22/tutorial_py_canny.html)
+
+### Детектор углов Харриса
+
+Ссылки:
+- [OpenCV Harris corner detector](https://docs.opencv.org/3.4/d4/d7d/tutorial_harris_detector.html)
+- [Хабр: Детекторы углов](https://habr.com/ru/post/244541/)
+
+### Детектор окружности Хафа
+
+Ссылки:
+- [OpenCV: Hough Circle Transform](https://docs.opencv.org/4.7.0/d4/d70/tutorial_hough_circle.html)
+- [Detecting Circles in Images using OpenCV and Hough Circles](https://pyimagesearch.com/2014/07/21/detecting-circles-images-using-opencv-hough-circles/)
+
+## Задание
+
+1. Реализовать вручную процедуру свертки с ядром произвольного размера `k х k`, `k` - нечетное:
+  - оператор Собеля;
+  - оператор Прюитта;
+  - оператор Щарра
+  - свой оператор (радиально симметричный для простоты)
+  > Обычно изображение дополняется нулями (`padding`) на границах, размер `pad`'а - k/2 + 1.
+  > Произвольный оператор необходимо нормировать - сумма всех элементов матрицы должна быть равна 1.
+2. Сравнить свою реализацию с `filter2D` из `openCV`.
+3. Реализовать процедуру детектирования контуров на изображении методом Канни из `OpenCV`.
+4. Реализовать процедуру детектирования углов на изображении методом Харриса из `OpenCV`.
+5. Реализовать процедуру детектирования окружностей на изображении преобразованием Хафа из `OpenCV`.
